@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <title>Rena Rivero</title>
 </head>
 
@@ -56,7 +57,7 @@
                 <div class="aboutMe">
                     <h2 class="blueTitle">Hola</h2>
                     <p> Mi nombre es Rena Rivero, Soy front- end Developer amo el aprendizaje constante
-                        y continuo me motivan los nuevos retos. <br/> Me enfoco en crecer, crear y creer.<br/>
+                        y continuo me motivan los nuevos retos. <br /> Me enfoco en crecer, crear y creer.<br />
                         Soy apasionada, trabajadora y extremadamente responsable.</p>
                     <button type="submit" onclick="window.open('./iconos/curriculum.pdf')"
                         class="btn btn-warning text-white btn-md middleBtn cv" style="margin-left: 0">Ver más</button>
@@ -66,7 +67,7 @@
         </div>
         <!---Projects -->
         <div class="sections">
-            <div  id="projects"class="container"  >
+            <div id="projects" class="container">
 
                 <h1 class="blueTitle">Proyectos en los que he trabajado recientemente</h1>
                 <div class="row projectSection">
@@ -105,48 +106,51 @@
         <!---skills -->
         <div id="tools" class="whitesections">
             <h2 class="blueTitle2">Habilidades</h2>
-        
-                <div class="row">
-                 <img class="contact2"src="./iconos/png/html-5.png"/>
-                 <img class="contact2" src="./iconos/png/css.png"/>
-                 <img class="contact2"src="./iconos/png/javascript.png"/>
-                 <img class="contact2" src="./iconos/png/react.png"/>
+
+            <div class="row">
+                <img class="contact2" src="./iconos/png/html-5.png" />
+                <img class="contact2" src="./iconos/png/css.png" />
+                <img class="contact2" src="./iconos/png/javascript.png" />
+                <img class="contact2" src="./iconos/png/react.png" />
+            </div>
+
+            <div class="boxSkills">
+                <img class="profileImg" src="./iconos/softSkills.jpg">
+                <div class="skills">
+                    <h2 class="blueTitle">Soft skills</h2>
+                    <p>El trabajo en equipo y las metodologías ágiles en el ambiente laboral del mundo Tech
+                        son sin duda pieza fundamental para la pro actividad, la eficiencia y la eficacia. <br />
+                        Puedo decir con toda seguridad, que me identifico y me motiva cada proyecto que involucra esta
+                        cultura de trabajo,
+                        pues el aprendizaje que gano de cada experiencia es tan satisfactoria como desafiante.
+                    </p>
                 </div>
-                
-                    <div class="boxSkills">
-                        <img class="profileImg" src="./iconos/softSkills.jpg">
-                        <div class="skills">
-                            <h2 class="blueTitle">Soft skills</h2>
-                            <p>El trabajo en equipo y las metodologías ágiles en el ambiente laboral del mundo Tech 
-                                son sin duda pieza fundamental para la pro actividad, la eficiencia y la eficacia. <br/>
-                                Puedo decir con toda seguridad, que me identifico y me motiva cada proyecto que involucra esta cultura de trabajo,
-                                pues el aprendizaje que gano de cada experiencia es tan satisfactoria como desafiante. 
-                            </p>
-                        </div>
-                       
-                    </div>
-              
-         
+
+            </div>
+
+
         </div>
         <!---Contact -->
         <div id="contact" class="sections">
             <div class="container">
-            <h2 class="blueTitle">Contáctame</h2>
+                <h2 class="blueTitle">Contáctame</h2>
 
-            <div class="row">
-                <div class="contactimg">
-                    <a href="rinarive@gmail.com"><img class="contact" src="./iconos/png/002-gmail.png"/></a>
-                    <a href="http://github.com/rinarive"><img class="contact"src="./iconos/png/003-github.png"/></a>
-                    <a href="http://www.linkedin.com/in/renarivero/"><img class="contact" src="./iconos/png/004-linkedin.png"/></a>
+                <div class="row">
+                    <div class="contactimg">
+                        <a href="rinarive@gmail.com"><img class="contact" src="./iconos/png/002-gmail.png" /></a>
+                        <a href="http://github.com/rinarive"><img class="contact"
+                                src="./iconos/png/003-github.png" /></a>
+                        <a href="http://www.linkedin.com/in/renarivero/"><img class="contact"
+                                src="./iconos/png/004-linkedin.png" /></a>
+                    </div>
                 </div>
+
             </div>
-      
+            <footer class="container">
+                <p class="float-right"><a class="back" href="#">Volver arriba</a></p>
+                <p> Creado por © Rena Rivero</p>
+            </footer>
         </div>
-        <footer class="container">
-            <p class="float-right"><a class="back"href="#">Volver arriba</a></p>
-            <p> Creado por © Rena Rivero</p>
-        </footer>
-    </div>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -159,8 +163,15 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script type="module" src="app.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.14.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.14.0/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
 </body>
 
 </html>
-
-

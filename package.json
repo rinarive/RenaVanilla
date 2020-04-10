@@ -1,0 +1,19 @@
+{
+  "name": "renavanilla",
+  "version": "1.0.0",
+  "description": "portafolio profesional",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinarive/RenaVanilla.git"
+  },
+  "author": "rena rivero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rinarive/RenaVanilla/issues"
+  },
+  "homepage": "https://github.com/rinarive/RenaVanilla#readme"
+}
