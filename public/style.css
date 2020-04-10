@@ -27,7 +27,7 @@ body{
   height: 50%;
 }
 .init{
-  background-image: url('/home/rena/Escritorio/RenaVanilla/public/iconos/desktop.jpg');
+  background-image: url('https://github.com/rinarive/RenaVanilla/blob/master/public/iconos/desktop.jpg?raw=true');
   background-size: 200vmin;
   background-repeat: no-repeat;
   min-height: 85vh;
