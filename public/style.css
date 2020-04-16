@@ -16,7 +16,9 @@ body{
 }
 .navbar{
   opacity: 0.9;
+  background-color: transparent;
 }
+
 .main{
   width: inherit;
   height: inherit;
@@ -38,25 +40,17 @@ body{
   height: auto;
   display: flex;
   border-radius: 8px;
-  opacity: 0.9;
-  transition: .5s ease;
-  backface-visibility: hidden;
+
 }
 .middle {
   transition: .5s ease;
-  opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
-.col-md-5:hover .profileImg {
-  opacity: 0.3;
-}
-.col-md-5:hover .middle {
-  opacity: 1;
-}
+
 .text {
   color: white;
   font-size: 80px;
@@ -86,7 +80,6 @@ body{
   flex-direction: row-reverse;
 }
 .aboutMe{
-  margin-top: 50px;
   font-size: calc(20px + 2vmin);
   padding-left: 17px;
 
@@ -159,6 +152,13 @@ body{
   grid-row: auto;
   flex-direction: row-reverse;
 }
+.softSkill{
+  max-width: 50%;
+  height: auto;
+  display: flex;
+  border-radius: 8px;
+ 
+}
 .contact{
   width: 100px;
   margin: 50px;
@@ -188,13 +188,25 @@ a:hover{
     font-size: 20px;
     
   }
+  .middle {
+     transition:0;
+    position: sticky;
+    top: 45%;
+    transform: translate(0);
+    -ms-transform: translate(0);
+}
+.aboutMe{
+  margin-top: 20%;
+}
+.profileImg {
+  max-width: 80%;
+  margin-bottom: 20%;
+}
   h1{
     font-size: 2rem;
     text-align: center;
   }
-  .init{
-    min-height: 50vh;
-  }
+
   .box{
     flex-wrap: wrap;
     margin-top: 0%;
@@ -206,6 +218,13 @@ a:hover{
     padding: 1%;
 
   }
+
+.softSkill{
+margin-bottom: 10px;
+max-width: 80%;
+
+}
+
   .blueTitle2{
     justify-content: center;
   }
