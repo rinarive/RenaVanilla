@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap" rel="stylesheet">
 
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -33,6 +35,8 @@
                         <a class="nav-link" href="#aboutMe">Sobre mí</a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#tools">Habilidades</a></li>
                     <a href="#contact"><button type="button" id="middleBtn"class="btn btn-outline-warning">Contacto</button></a>
                 </ul>
             </div>
@@ -52,67 +56,88 @@
         </div>
 
         <!---About me -->
-        <div id="aboutMe" class="white">
-            <div class="box">
-                <div class="aboutMe">
-                    <h2 class="blueTitle">Hola</h2>
-                    <p> Mi nombre es Rena Rivero, Soy front- end Developer amo el aprendizaje constante
-                        y continuo me motivan los nuevos retos. <br /> Me enfoco en crecer, crear y creer.<br />
-                        Soy apasionada, trabajadora y extremadamente responsable.</p>
-                    <button type="submit" onclick="window.open('./iconos/CV-RENA-DEV.pdf')"
-                        class="btn btn-warning text-white btn-md middleBtn cv" style="margin-left: 0">curriculum(PDF)</button>
-                </div>
-                <img class="profileImg" src="iconos/avatar.jpg">
-            </div>
-        </div>
-        <!---Projects -->
-        <div class="sections">
-            <div id="projects" class="container">
+        <section id="aboutMe" class="hero is-fullheiht">
+            <div class="hero-body">
+        <div class="aboutMe">
 
-                <h1 class="blueTitle">Proyectos en los que he trabajado recientemente</h1>
+            <div class="columns is-desktop">
+                                                
+                <div class="column">
+                    <img src="iconos/avatar.jpg">
+                </div>
+
+                <div class="column">
+                    <h2 class="blueTitle">Soy Rena, y quiero contarte mi historia... </h2>
+                    <p class="is-small">En octubre del 2019 inicie un bootcamp intensivo sobre desarrollo web con @laboratoria,
+                        ha sido una experiencia totalmente enriquecedora pues la programación ha llegado a enamorarme y a desafiarme de la misma manera que lo hace la llegada de un hijo a tu vida,
+                        ha representado el desafío mismo de entender la magnitud de mis capacidades y lo determinada que soy.</br>
+                        
+                        Mi vida laboral antes de la programación  se basaba en la elaboración de prótesis  dentales, de esa experiencia conservo la habilidad de interacción  con los clientes, entender sus necesidades y satisfacer su requerimientos.</br>                     
+                        
+                        Hoy puedo decir que soy capaz de crear y diseñar soluciones tecnológicas basadas en los requerimientos del cliente, he aprendido a manejar tecnologías como HTML, CSS, JavaScript, Node.js, me encanta las metodologías  de trabajo y cultura ágil. </br>Sigo aprendiendo, sigo creciendo, creyendo en mi y creandome un camino.</p>
+                        <button type="submit" onclick="window.open('./iconos/CV-RENA-DEV.pdf')"
+                        class="btn btn-warning text-white btn-md middleBtn cv" style="margin-left: 0">Download(CV-PDF)</button>
+                </div>
+            </div>
+                    
+            </div>
+        </section>
+        <!---Projects -->
+        <section id="projects" class="hero is-light is-fullheight">
+            <div class="hero-body">
+      
+            <div class="container">
+
+                <h2 class="blueTitle">Proyectos en los que he trabajado recientemente</h2>
                 <div class="row projectSection">
                     <div class="col-lg-6 logoSpacing">
                         <a href="https://here-61f73.web.app/">
-                            <h5 class="projects">Pet Places</h5>
-                        </a>
-                        <p>Proyecto Empresa Here</p>
+                        <h3 class="projects">Pet Places</h3></a>
+                        <h6>Proyecto Empresa Here</h6>
+                        <p>SPA mobile que muestra ubicaciones de lugares Pet Friendly a través de los mapas de HERE.</p>
                         <a href="https://github.com/rinarive/SCL012-here-app"><button
                                 class="btn btn-warning text-white">Github</button></a>
                     </div>
                     <div class="col-lg-6 logoSpacing" id="float-right">
                         <a href="https://catalina-alzamora.github.io/SCL012-data-lovers/src/index.html"></a>
-                        <h5 class="projects">Burguer Queen</h5>
-                        <p>Interfaz web para tablets</p>
+                        <h3 class="projects">Burguer Queen</h3>
+                        <h6>Interfaz web para tablets</h6>
+                        <p>App para la gestión de comandas en restaurantes de comida rápida.</p>
                         <a href="https://github.com/rinarive/SCL012-burger-queen"><button
                                 class="btn btn-warning text-white">Github</button></a>
                     </div>
                     <div class="col-lg-6 logoSpacing">
                         <a href="https://katsmunoz.github.io/PelisKids/src/index.html"></a>
-                        <h5 class="projects">WeService</h5>
-                        <p>Social Network</p>
+                        <h3 class="projects">WeService</h3>
+                        <h6>Social Network</h6>
+                        <p>Red social enfocada a la promoción de servicios a domicilio.</p>
                         <a href="https://github.com/rinarive/SCL012-Social-Network"><button
                                 class="btn btn-warning text-white">Github</button></a>
                     </div>
                     <div class="col-lg-6 logoSpacing" id="float-right">
                         <a href="https://katsmunoz.github.io/PelisKids/src/index.html"></a>
-                        <h5 class="projects">Solo en 70min</h5>
-                        <p>Aplicación web </p>
+                        <h3 class="projects">Solo en 70min</h3>
+                        <h6>Aplicación web </h6>
+                        <p>Sitio web usando API de IMDb para mostrar y sugerir películas de corta duración.</p>
                         <a href="https://github.com/rinarive/final-commoncore"><button
                                 class="btn btn-warning text-white">Github</button></a>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
         <!---skills -->
-        <div id="tools" class="whitesections">
-            <h2 class="blueTitle2">Habilidades</h2>
-
+    <section id="tools" class="hero is-fullheiht">
+    <div class="hero-body">
+        <div></div>
+        <div  class="tools">
+            <h1 class="blueTitle2">Skills</h1>
             <div class="row">
                 <div class="icons">
-                    <img class="contact2" src="./iconos/png/html-5.png" />
-                    <img class="contact2" src="./iconos/png/css.png" />
-                    <img class="contact2" src="./iconos/png/javascript.png" />
-                    <img class="contact2" src="./iconos/png/react.png" />
+                    <img class="contact2" alt="HTML" src="./iconos/png/html-5.png" />
+                    <img class="contact2" alt="CSS" src="./iconos/png/css.png" />
+                    <img class="contact2" alt="JavaScript" src="./iconos/png/javascript.png" />
+                    <img class="contact2" alt="React.js" src="./iconos/png/react.png" />
                 </div>
             </div>
 
@@ -130,29 +155,41 @@
 
             </div>
 
-
         </div>
+        
+    </div>
+    </section>
         <!---Contact -->
-        <div id="contact" class="sections">
-            <div class="container">
-                <h2 class="blueTitle">Contáctame</h2>
+        <section id="contact" class="hero is-light">
+            <div class="hero-body">
+              <div class="container">
+                <h2 class="blueTitle">
+                  Contacto
+                </h2>
+                <class  class="is-inline">
+               
+                    <a href="mailto:rinarive@gmail.com?subject=Coordinar una entrevista.&body=Hola te contacto desde tu website...">
+                        <img class="contact" src="./iconos/png/002-gmail.png" /></a>
 
-                <div class="row">
-                    <div class="contactimg">
-                        <a href="rinarive@gmail.com"><img class="contact" src="./iconos/png/002-gmail.png" /></a>
-                        <a href="http://github.com/rinarive"><img class="contact"
-                                src="./iconos/png/003-github.png" /></a>
-                        <a href="http://www.linkedin.com/in/renarivero/"><img class="contact"
-                                src="./iconos/png/004-linkedin.png" /></a>
-                    </div>
-                </div>
-
+                    <a href="http://github.com/rinarive"><img class="contact"
+                        src="./iconos/png/003-github.png" /></a>
+                        
+                    <a href="http://www.linkedin.com/in/renarivero/"><img class="contact"
+                            src="./iconos/png/004-linkedin.png" /></a>
+                            
+                    <a href="https://www.facebook.com/rina.rivero"><img class="contact"
+                            src="./iconos/png/fb.png" /></a>
+                    
+             </div>
+            
+              </div>
             </div>
-            <footer class="container">
-                <p class="float-right"><a class="back" href="#">Volver arriba</a></p>
-                <p> Creado por © Rena Rivero</p>
-            </footer>
-        </div>
+          </section>
+
+        <footer class="link">
+            <p class="float-right"><a class="back" href="#">Volver arriba</a></p>
+            <p> Creado por © Rena Rivero</p>
+        </footer>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -165,6 +202,8 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script type="module" src="app.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="/__/firebase/7.14.0/firebase-app.js"></script>
 

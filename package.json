@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rinarive/RenaVanilla/issues"
   },
-  "homepage": "https://github.com/rinarive/RenaVanilla#readme"
+  "homepage": "https://github.com/rinarive/RenaVanilla#readme",
+  "dependencies": {
+    "bulma": "^0.8.2"
+  }
 }
