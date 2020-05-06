@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rinarive/RenaVanilla#readme",
   "dependencies": {
-    "bulma": "^0.8.2"
+    "bulma": "^0.8.2",
+    "hover.css": "^2.3.2"
   }
 }
