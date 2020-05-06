@@ -66,9 +66,8 @@ p{
 }
 .blueTitle2{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-top: 10%;
-  margin-right: 22rem;
   color: #9b142b;
 }
 .myName{
@@ -120,9 +119,14 @@ p{
 
 .contact{
   width: 100px;
-  margin: 50px;
+  margin: 20px;
   padding: 10px;
 
+}
+.skill{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
 }
 
 .contactimg{
