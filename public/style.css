@@ -145,7 +145,11 @@ p{
   flex-wrap:wrap;
   margin-bottom: 20px;
 }
-
+#skills {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+}
 .contactimg{
   padding: 30px;
   width:17%;
