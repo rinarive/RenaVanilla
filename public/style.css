@@ -17,7 +17,7 @@ body{
   padding: 0;
 }
 p{
-  font-weight:200;
+
   font-family: 'Montserrat', sans-serif;
 }
 .navbar{
@@ -30,6 +30,17 @@ p{
   height: inherit;
 
 }
+#title{
+  margin-top: 10%;
+  justify-content: center;
+  text-align: center;
+} 
+#title-go{
+  margin-top: 20%;
+  margin-bottom: 10% ;
+  justify-content: center;
+  text-align: center;
+} 
 .logo{
   width: 50%;
   height: 50%;
@@ -70,6 +81,10 @@ p{
   margin-top: 10%;
   color: #9b142b;
 }
+ .columns  #projects{
+  margin-top: 20%;
+  padding-left: 17px;
+}
 .myName{
   color: #9b142b;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -89,7 +104,19 @@ p{
   flex-direction: row-reverse;
 
 }
+#tools{
+  font-size: calc(20px + 2vmin);
+  padding-left: 17px;
+  margin-top: 10%;
+  padding:5%;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  grid-row: auto;
+  flex-direction: row-reverse;
 
+}
 
   .projects{
     color: #970E06;
@@ -129,9 +156,7 @@ p{
 .logoSpacing{
   margin-top: 25px;
 }
-.targ{
-  margin-top: 10%;
-}
+
 
 .contact{
   width: 100px;
@@ -143,12 +168,13 @@ p{
   display:flex;
   justify-content: center;
   flex-wrap:wrap;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 #skills {
     width: 200px;
     margin: 20px;
     padding: 10px;
+
 }
 .contactimg{
   padding: 30px;
@@ -183,8 +209,13 @@ a:hover{
     transform: translate(0);
     -ms-transform: translate(0);
 }
-.aboutMe{
-  margin-top: 20%;
+#go{
+  font-size: calc(20px + 2vmin);
+  padding-left: 17px;
+  margin-top: 30%;
+  margin-bottom: 30% ;
+  display: flex;
+  justify-content: center;
 }
 .profileImg {
   max-width: 80%;
@@ -197,7 +228,8 @@ a:hover{
 
 
 #projects{
-  margin-top: 20%;
+  margin-top: 40%;
+  justify-content: center; 
 }
   .blueTitle2{
     justify-content: center;
@@ -248,6 +280,7 @@ a:hover{
 .sections .white{
   padding:0;
 }
+
 
 }
 

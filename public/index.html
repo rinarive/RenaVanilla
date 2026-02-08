@@ -35,12 +35,14 @@
             <div class="collapse navbar-collapse float-right" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
+                        <a class="nav-link" href="#title-go">Inicio</a></li>
                         <a class="nav-link" href="#aboutMe">Sobre mí</a></li>
+                        <a class="nav-link" href="#projects">Servicios</a></li>
+                        <a class="nav-link" href="#tools">Decisiones de calidad</a></li>
+                        <a href="#contact"><button type="button" id="middleBtn"class="btn btn-outline-warning">Contacto</button></a>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Proyectos</a></li>
-                    <li class="nav-item">
-                            <a class="nav-link" href="#tools">Habilidades</a></li>
-                    <a href="#contact"><button type="button" id="middleBtn"class="btn btn-outline-warning">Contacto</button></a>
+                           
+                    
                 </ul>
             </div>
         </div>
@@ -57,151 +59,103 @@
                 </div>
             </div>
         </div>
-
+        <!---Go -->
+        <section id="title-go" class="hero white"> 
+            <div class="container" id="title-go" >
+                <h1 class="blueTitle">Libera con seguridad. Decide con criterio.</h1>
+                <p class="is-small">Ayudo a organizaciones que construyen software crítico a reducir incidentes en producción mediante estrategias de regresión inteligente, automatización basada en riesgo y marcos claros de decisión.</p>
+                <p class="is-small">La calidad deja de ser una intuición y se transforma en un sistema confiable.</p> 
+            </div>
+        </section>
+    
         <!---About me -->
-        <section id="aboutMe" class="hero is-fullheiht">
-            <div class="hero-body">
-        <div class="aboutMe">
-
-            <div class="columns is-desktop">
-                                                
-                <div class="column">
-                    <img src="iconos/avatar.jpg">
-                </div>
-
-                <div class="column">
-                    <h2 class="blueTitle">Libera con seguridad. Decide con criterio. </h2>
-                    <p class="is-small">Acompaño a organizaciones a mejorar la forma en que llevan software a producción mediante estrategias de calidad, regresión inteligente y automatización enfocada en riesgo.</br>
-					<p class="is-small">Mi trabajo conecta tecnología con negocio para lograr:</p>
-					<ul>
-					  <li>menos incidentes productivos</li>
-					  <li>releases más predecibles</li>
-					  <li>claridad sobre qué probar y por qué</li>
-					  <li>equipos alineados en criterios de salida</li>
-					  <li>confianza real antes de liberar</li>
-					</ul>
-					<p class="is-small">
-					No se trata de probar más.<br>
-					Se trata de probar <strong>mejor</strong>, con intención y foco en impacto.
-					</p>
-					<p class="is-small">
-					Si tu equipo necesita orden, visibilidad y una base sólida para escalar, puedo ayudarte a construirlo.
-					</p>
-                        <button type="submit" onclick="window.open('Rena_Rivero_Currículum_mayo2021.pdf')"
-                        class="btn btn-warning text-white btn-md middleBtn cv" target="_blank" style="margin-left: 0">Download(CV-PDF)</button>
-                </div>
+        <section id="aboutMe" class="hero is-fullheight">
+            <div class="aboutMe">
+                <div class="columns is-desktop">                               
+                    <div class="column">
+                        <img src="iconos/avatar.jpg">
+                    </div>
+                    <div class="column">
+                        <h2 class="blueTitle">Soy especialista en gobernanza de calidad</h2>
+                        <p class="is-small">Trabajo en la intersección entre tecnología y negocio para asegurar que cada liberación tenga sentido, esté protegida frente al riesgo correcto y aporte valor real.</p>
+                        <p class="is-small">Mi experiencia en entornos de alta exigencia me ha llevado a participar activamente en criterios de salida, priorización de automatización y decisiones de paso a producción donde la confianza no es opcional.</p>
+                        <p class="is-small">
+                        No se trata de probar más.<br>
+                        Se trata de probar <strong>mejor</strong>, con intención y foco en impacto.
+                        </p>
+                        <p class="is-small">
+                        Si tu equipo necesita orden, visibilidad y una base sólida para escalar, puedo ayudarte a construirlo.
+                        </p>
+                            <button type="submit" onclick="window.open('Rena_Rivero_Currículum_mayo2021.pdf')"
+                            class="btn btn-warning text-white btn-md middleBtn cv" target="_blank" style="margin-left: 0">Download(CV-PDF)</button>
+                    </div>
+                </div>     
             </div>
-                    
-            </div>
-<!---Projects
         </section>
 
-        <section id="projects" class="hero is-light is-fullheight">
-            <div class="hero-body">
+        <!---Projects--->
+        <section id="projects" class="hero is-light aboutMe">
+                <div class="columns is-mobile is-centered">
+                    <div class="column is-narrow">
+                        <h1 id="title" class="projects">Cómo puedo ayudar a tu organización</h1>
+                    </div>
+                  </div>
+                <div class="columns is-multiline is-centered">
+                    <div class="column is-narrow">
+                        <h3 class="projects">Puedo acompañarte en iniciativas como:</h3>
+                            <ul>
+                                <li> Evaluación de madurez de calidad</li>
+                                <li> Diseño de estrategias de regresión</li>
+                                <li> Definición de quality gates</li>
+                                <li> Priorización de automatización basada en riesgo</li>
+                                <li> Optimización del proceso de release</li>
+                                <li> Mentoría a equipos QA y desarrollo</li>
+                                <li> Alineación entre tecnología y negocio para decisiones de salida</li>
+                            </ul>
+                    </div>
+                    <div class="column is-narrow">
+                        <h3 class="projects">Impacto que puedes esperar</h3>
+                            <ul>
+                                <li> Menos incidentes productivos</li>
+                                <li> Releases más predecibles</li>
+                                <li> Claridad sobre qué probar y por qué</li>
+                                <li> Equipos alineados en criterios de salida</li>
+                                <li> Confianza real antes de liberar</li>
+                            </ul>
+                    </div>
+                  </div>
       
-            <div class="container">
-
-                <h2 class="blueTitle">Proyectos en los que he trabajado</h2>
-                <div class="row projectSection">
-                    <div class="col-lg-6 logoSpacing">
-                        <a href="https://here-61f73.web.app/" target="_blank">
-                            <h3 class="projects"><i class="fa fa-chevron-circle-right hvr-icon"></i>Pet Places </i></h3> 
-                        </a>
-                        <h6>Proyecto Empresa Here</h6>
-                        <p>SPA mobile que muestra ubicaciones de lugares Pet Friendly a través de los mapas de HERE.</p>
-                        <a href="https://github.com/rinarive/SCL012-here-app" target="_blank"><button
-                                class="btn btn-warning text-white">Github</button></a>
-                    </div>
-                    <div class="col-lg-6 logoSpacing" id="float-right">
-                        <a href="https://burger-queen-e7d50.web.app"  target="_blank">
-                            <h3 class="projects"><i class="fa fa-chevron-circle-right hvr-icon"></i>Burguer Queen </i></h3>
-                        </a>
-                        <h6>Interfaz web para tablets</h6>
-                        <p>App para la gestión de comandas en restaurantes de comida rápida.</p>
-                        <a href="https://github.com/rinarive/SCL012-burger-queen" target="_blank"><button
-                                class="btn btn-warning text-white">Github</button></a>
-                    </div>
-                    
-                    <div class="col-lg-6 logoSpacing">
-                        <a href="https://red-social2020.firebaseapp.com/#/inicio" target="_blank">
-                        <h3 class="projects"><i class="fa fa-chevron-circle-right hvr-icon"></i>WeService </h3></a>
-                        <h6>Social Network</h6>
-                        <p>Red social enfocada a la promoción de servicios a domicilio.</p>
-                        <a href="https://github.com/rinarive/SCL012-Social-Network" target="_blank"><button
-                                class="btn btn-warning text-white">Github</button></a>
-                    </div>
-                    <div class="col-lg-6 logoSpacing" >
-                        <a href="https://rinarive.github.io/final-commoncore/src/index.html" target="_blank">
-                        <h3 class="projects"><i class="fa fa-chevron-circle-right hvr-icon"></i>Solo en 70min </h3></a>
-                        <h6>Aplicación web </h6>
-                        <p>Sitio web usando API de IMDb para mostrar y sugerir películas de corta duración.</p>
-                        <a href="https://github.com/rinarive/final-commoncore"><button
-                                class="btn btn-warning text-white">Github</button></a>
-                    </div>
-                </div>
+            <div class="skill">
+                <h2 id="skills">Selenium</h2>
+                <h2 id="skills">Jmeter</h2>
+                <h2 id="skills">Locust</h2>
+                <h2 id="skills">Atlassian</h2>
+                <h2 id="skills">Python</h2>
+                <h2 id="skills">Github</p>
+                <h2 id="skills">Gitlab</h2>
+                <h2 id="skills">Jira<h2>
+                <h2 id="skills">Postman</h2>
             </div>
-        </div>
-    </section>
-		 -->
+        </section>  
         <!---skills -->
-    <section id="tools" class="hero is-fullheiht">
-    <div class="hero-body">
-
-            <h1 class="blueTitle2">Skills</h1>
-        
-                <div class="skill">
-                    <!--
-                    <img class="contact" alt="HTML" src="./iconos/png/html-5.png" />
-                    <img class="contact" alt="CSS" src="./iconos/png/css.png" />
-                    <img class="contact" alt="JavaScript" src="./iconos/png/javascript.png" />
-                    <img class="contact" alt="React.js" src="./iconos/png/react.png" />
-                    <img class="contact" alt="node" src="./iconos/png/nodejs.png" />
-                    <img class="contact" alt="git" src="./iconos/png/git.png" />
-                    <img class="contact" alt="bootstrap" src="./iconos/png/bootstrap.png" />
-                    <img class="contact" alt="Trello" src="./iconos/png/Trello.png" />
-                    --->
-
-                        <h2 id="skills">Selenium</h2>
-                        <h2 id="skills">Jmeter</h2>
-					    <h2 id="skills">Locust</h2>
-                        <h2 id="skills">Atlassian</h2>
-                        <h2 id="skills">Python</h2>
-                        <h2 id="skills">Github</p>
-                        <h2 id="skills">Gitlab</h2>
-                        <h2 id="skills">Jira<h2>
-                        <h2 id="skills">Postman</h2>
-                  
-
-                </div>
-           
-            <div class="columns is-desktop">
-                <div class="column">
-                    <img src="./iconos/softSkills.jpg">
-                </div>
-
-                <div class="column">
-                    <div class="targ">
-
-                        <h2 class="blueTitle">Soft skills</h2>
-							<p>
-							El trabajo colaborativo y las metodologías ágiles son habilitadores esenciales para lograr entregas confiables en entornos tecnológicos complejos.<br/>
-							Me siento especialmente cómoda en culturas donde calidad, desarrollo y negocio conversan de forma abierta para tomar decisiones informadas.
-							</p>
-							
-							<p>
-							Aporto una mirada estructurada que ayuda a alinear equipos, clarificar criterios de salida y enfocar los esfuerzos en aquello que realmente reduce riesgo y genera valor.<br/>
-							Cada desafío es una oportunidad para instalar prácticas más predecibles, visibles y sostenibles en el tiempo.
-							</p>
+        <section id="tools" class="hero is-fullheight">
+            <div class="aboutMe">
+                <div class="columns is-desktop">
+                    <div class="column">
+                        <img src="./iconos/softSkills.jpg">
+                    </div>
+                    <div class="column">
+                        <div>
+                            <h2 class="blueTitle">Calidad como habilitador de decisiones</h2>
+                                <p>El trabajo colaborativo y las metodologías ágiles son fundamentales para lograr entregas confiables en entornos complejos.</p>
+                                <p>Me desenvuelvo en culturas donde calidad, desarrollo y negocio conversan de forma transparente para decidir con información y no con suposiciones.</p>
+                                <p>Aporto una mirada estructurada que alinea equipos, clarifica criterios y enfoca los esfuerzos en lo que verdaderamente reduce riesgo y genera impacto sostenible.</p>
+                        </div>
                     </div>
                 </div>
+            </div> 
+        </section>
 
-
-            </div>
-
-        </div>
-        
-    </div>
-    </section>
         <!---Contact -->
         <section id="contact" class="hero is-light">
             <div class="hero-body">
@@ -226,7 +180,7 @@
             
               </div>
             </div>
-          </section>
+        </section>
 
         <footer class="link">
             <p class="float-right"><a class="back" href="#">Volver arriba</a></p>
